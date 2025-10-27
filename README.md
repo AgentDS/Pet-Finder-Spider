@@ -1,6 +1,6 @@
 # Pet-Finder-Spider
 
-Try to automatically retrieve search results from [PetFinder](https://www.petfinder.com/) for personized pet requirements.
+Try to automatically retrieve search results from [PetFinder](petfinder.com/) for personized pet requirements.
 
 TODO:
 - [ ] basic search query result parse
