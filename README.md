@@ -11,6 +11,9 @@ TODO:
 - [ ] result merge for several search queries
 - [ ] for each card on merged results, open link and do information parse (save raw content)
 - [ ] call GPT API for content analysis using "saved raw content"
+  - basic info: gender, age/month, location (city), birthday, color
+  - pictures
+  - page link
 - [ ] send Email report based on summarized information
 
 
