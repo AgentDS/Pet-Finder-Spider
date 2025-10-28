@@ -1,7 +1,8 @@
 BASIC_URL = "https://www.petfinder.com/search/cats-for-adoption/us/{location}/?age%5B0%5D={age}&breed%5B0%5D={breed}&distance={distance}"
 
 def kitten_query_url(breed='Siamese', age='Baby', location='mi/ann-arbor', distance=100):
-    assert age in ['Baby', 'Young', 'Adult', 'Senior']
+    assert age in ['Baby', 'Young', 'Adult', 'Senior'], "Only support age in ['Baby', 'Young', 'Adult', 'Senior']"
+    assert breed in ['Abyssinian', 'Siamese'], "Currently only support 'breed' for 'Abyssinian', or 'Siamese'"
 
     if isinstance(distance, int):
         assert distance > 0
