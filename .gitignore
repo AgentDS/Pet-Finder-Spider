@@ -1,3 +1,7 @@
+# local cache setting
+data/cache/*
+!data/cache/.gitkeep
+
 # System file
 *.DS_Store
 
